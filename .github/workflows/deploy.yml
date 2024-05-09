@@ -56,7 +56,6 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -64,7 +63,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.0"
+          ruby-version: "3.2.2"
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
@@ -73,9 +72,17 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Install Dependencies
+        run: |
+          bundle config set deployment 'false'
+          bundle config set frozen 'false'
+          bundle config set path 'vendor/bundle'
+          bundle install
+      - name: Install Python Dependencies
         run: |
           pip3 install --upgrade jupyter
+      - name: Build Jekyll Site
+        run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
       - name: Purge unused CSS 🧹
