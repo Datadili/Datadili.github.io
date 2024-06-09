@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I graduated from Yale! :smile:
 
 <!---
 ---
