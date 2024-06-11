@@ -217,6 +217,19 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+
+/* Additional media query for screens smaller than 576px, dili's edit */
+@media (max-width: 575.98px) {
+  .profile {
+    /* Adjust the height as needed */
+    height: 200px; /* for example */
+    /* Increase margin for smaller screens */
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
