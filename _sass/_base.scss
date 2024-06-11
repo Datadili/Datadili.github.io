@@ -486,9 +486,26 @@ footer.sticky-bottom {
 // Repositories
 
 @media (min-width: 768px) {
-  .repo {
-    max-width: 50%;
+  // .repo {
+  //   max-width: 50%;
+  // }
+
+  //from nice website
+      .card-item {
+      margin-bottom: 5px; // Reduced spacing for mobile devices
+    }
+
+    .grid-sizer,
+    .grid-item {
+      margin-bottom: 5px; // Reduced spacing for mobile devices
+    }
+
+    h2.category {
+      margin-top: 1rem; // Reduced spacing for mobile devices
+      margin-bottom: 0.5rem; // Reduced spacing for mobile devices
+    }
   }
+
 }
 
 // Blog
