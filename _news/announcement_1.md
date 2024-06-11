@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am hosting office hours for <a href="https://predoc.org/events" target="_blank">predoc.org</a>
+I am hosting office hours for predoc.org
