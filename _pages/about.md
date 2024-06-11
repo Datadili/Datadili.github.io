@@ -15,11 +15,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}" (I [Dili] put false)
-social: true # includes social icons at the bottom of the page 
+social: # true # includes social icons at the bottom of the page 
 ---
 
-Write your biography here. Tell the world about yourself. You can find my cv [here](http://reddit.com). profile pic in `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Dili is an incoming first year student at the University of Michigan. Her research interests include networks, labor and migration, and industrial organization, primarily within the field of development. Prior to the University of Michigan, she was a Research Associate for Tavneet Suri at MIT Sloan, where she worked on various projects including land markets, networks, and universal pension systems in developing economies. She holds Bachelor's degrees in Mathematics and Economics from the University of Missouri, and an MA in International and Development Economics from Yale University. You can find my cv [here](https://github.com/Datadili/Datadili.github.io/blob/master/assets/pdf/resume_jun_10.pdf).
