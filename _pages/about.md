@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular gg
 
-news: false # true # includes a list of news items
+news: false # true # includes a list of news items... remove post though
 selected_papers: false # includes a list of papers marked as "selected={true}" 
 social: true # includes social icons at the bottom of the page 
 ---
