@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Job quest
+description: Using cosine similarity to find the optimal job
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
