@@ -1,3 +1,4 @@
+<!---
 ---
 layout: page
 title: Projects
@@ -8,6 +9,7 @@ nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+--->
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -39,6 +41,7 @@ horizontal: false
 
 {% else %}
 
+
 <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -63,3 +66,5 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+
