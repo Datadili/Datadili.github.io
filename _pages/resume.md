@@ -1,11 +1,9 @@
 ---
 layout: page
-permalink: /resume/
+permalink: /assets/pdf/resume_jun_10.pdf
 title: CV
-# description: a project that redirects to another website
-# img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+newtab: true
+permalink:
 nav: true
 nav_order: 10
 ---
