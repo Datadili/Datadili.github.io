@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Datadili.github.io/sitemap.xml
+Sitemap: https://dmaduabum.github.io/sitemap.xml
